@@ -3,7 +3,7 @@ import { google } from "googleapis";
 
 const youtube = google.youtube({
   version: "v3",
-  auth: "AIzaSyBRrQ--vSpYX6bxUtu0pPWXM0jCqKQtqnw", // Replace with your YouTube Data API key
+  auth: "your-api-key", // Replace with your YouTube Data API key
 });
 
 async function getVideosFromChannel(channelId) {
@@ -32,4 +32,4 @@ async function getVideosFromChannel(channelId) {
 }
 
 // Example usage
-getVideosFromChannel("UCzf-5Eb1MSk3BTKJRA2pEMA"); // Replace with a YouTube channel ID
+getVideosFromChannel("youtube-channel-id"); // Replace with a YouTube channel ID
